@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@300&family=Poppins:wght@300&family=Shalimar&family=Source+Sans+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inspiration&family=Montserrat:wght@300&family=Poppins:wght@300&family=Shalimar&family=Shrikhand&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  #54c3ef;
+}
+
+label{
+    padding: 20px 0px;
+}
+input{
+    padding: 20px 10px;
+}
+
+.heading{
+    text-align: center;
+    color: #fad744;
+    text-shadow: 3px 3px 3px gray;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+.quiz_box{
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.mainDiv{
+    background-color: #2b3252;
+    /* border: 1px solid red; */
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    color:  #fad744;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 49%;
+    border-radius: 8px;
+}
+
+.quiz_container{
+    background-color: #2b3252;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    color:  #fad744;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.ans_btn{
+    display: block;
+    padding: 10px 15px;
+    margin:20px auto;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #fad744;
+    border: none;
+}
+
+.score_bord{
+    background-color: white;
+    height: 150px;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 19% ;
+    right: 13%;
+    border-radius: 8px;
+}
+
+
